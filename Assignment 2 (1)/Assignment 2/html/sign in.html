@@ -1,0 +1,108 @@
+<html>
+	<head>
+		<title>Hotel Sunset's View | Contact Us</title>
+		<link rel="stylesheet" href="../css/Slider.css">
+        <link rel="stylesheet" href="../css/Home.css">
+        <link rel="stylesheet" href="../css/Header.css">
+        <link rel="stylesheet" href="../css/Footer.css">
+		<link rel="stylesheet" type="text/css" href="../css/sign in.css">
+        <script src="../js/Home.js"></script>
+	</head>
+	<body>
+	<!--=======================Header Start=======================-->
+		<header>
+		<div class="nav-bar">
+                <div class="logo"><img src="../images/logo.png" alt=""></div>
+                <div class="navigation">
+                    <div class="nav-items">
+                        <a href="../html/Home.html">Home</a>
+                        <a href="../html/Services.html">Services</a>
+                        <a href="../html/sign in.html">Sign In</a>
+                        <a href="../html/Gallery.html">Gallery</a>
+                        <a href="../html/Reservation.html">Book Now</a>
+                    </div>
+                </div>
+            </div>
+		</header>
+		<script src="../js/Header.js"></script>
+		<!--=======================Header End=======================-->
+		
+		<!--=======================Start sign in section=======================-->
+		<div class="container">
+
+            <div class="heading">
+
+                <h3>Sign In<br/></h3>
+				
+            </div>    
+		</div>
+		<div class="wrapper">
+			<form action="sing_in.php" method="post">
+				<div class="form">
+				<div>
+					<div class="inputfield">
+					<label for="Username">User Name</label>
+					<input
+						name="Username"	
+						id="Username"
+						type="text"
+						placeholder="Username"
+						class="input"
+					/>
+					</div>
+					<div id="Username-error" class="errorField"></div>
+				</div>
+
+				<div>
+					<div class="inputfield">
+					<label for="password">Password</label>
+					<input
+						name="password"
+						id="password"
+						type="password"
+						placeholder="password"
+						class="input"
+						maxlength="15"
+						min="3"
+					/>
+					</div>
+					<div id="password-error" class="errorField"></div>
+				</div>
+
+
+			  <div class="inputfield">
+				<input type="submit" value="Login" class="btn" />
+			  </div>
+			</div>
+		  </form>
+		</div>
+		<!--=======================End sign in section=======================-->
+		
+		<!--=======================Start footer section=======================-->
+		<section class="footer">
+            <div class="f-logo">
+                <img src="../images/flogo.png" alt="">
+            </div>
+            <ul class="list">
+                <li>
+                    <a href="../html/Home.html">Home</a>
+                </li>
+                <li>
+                    <a href="../html/Services.html">Services</a>
+                </li>
+                <li>
+					<a href="../html/sign in.html">Sign In</a>
+                </li>
+                <li>
+                    <a href="../html/Gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+            </ul>
+            <p class="copyright">Copyright © 2022 HOTEL SUNSET'S VIEW | All Rights Reserved.</p>
+        </section>
+		<!--=======================End footer section=======================-->
+
+	</body>
+</html>

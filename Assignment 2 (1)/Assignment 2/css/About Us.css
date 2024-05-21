@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+/*=======Scrollbar=======*/
+::-webkit-scrollbar{
+	width: 10px;
+	background: #979797;
+}
+
+::-webkit-scrollbar-thumb{
+	background: #575757;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background: #1b1b1b;
+}
+
+body{
+	background: #ffffff;
+	background-image: url("../images/Aboutus.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 100vh;
+	font-family: "Raleway", sans-serif;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.container .heading{
+    margin-top: 40px;
+    width: 50%;
+    padding-bottom: 50px;
+    color: 110044;
+
+}
+
+.container .heading h3{
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #222;
+
+}
+
+.container .heading h3 span{
+  font-weight: 100;
+
+}
+.container .heading h4{
+    font-size: 2em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+   
+}
+
+.container .heading h4 span{
+  font-weight: 100;

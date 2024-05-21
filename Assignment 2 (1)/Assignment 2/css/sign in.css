@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+/*=======Scrollbar=======*/
+::-webkit-scrollbar{
+	width: 10px;
+	background: #979797;
+}
+
+::-webkit-scrollbar-thumb{
+	background: #575757;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background: #1b1b1b;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ffffff;
+	background-image: url("../images/sign_in.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: "Raleway", sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.container .heading{
+    margin-top: 40px;
+    width: 50%;
+    padding-bottom: 50px;
+    color: #264D59;
+
+}
+
+.container .heading h3{
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #222;
+
+}
+
+.container .heading h3 span{
+  font-weight: 100;
+
+}
+
+.wrapper {
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  margin: 100px auto;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.125);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
+}
+
+.wrapper .form {
+  width: 100%;
+}
+
+.wrapper .form .inputfield .btn {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 0px;
+  background: #fec107;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+}
+
+@media (max-width: 420px) {
+  .wrapper .form .inputfield {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .wrapper .form .inputfield label {
+    margin-bottom: 5px;
+  }
+
+  .wrapper .form .inputfield.terms {
+    flex-direction: row;
+  }
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ededed;
+  opacity: 1; /* Firefox */
+}
+
+.inputfield input:focus {
+  outline: 0;
+}
+
+.success {
+  border-color: #09c372;
+}
+
+.inputfield.error input {
+  border-color: #ff3860;
+}
+.errorField {
+  font-size: 9px;
+  height: 12px;
+  text-align: start;
+}
+.error {
+  color: #ff3860;
+}
